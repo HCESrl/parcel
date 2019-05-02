@@ -12,6 +12,7 @@ const ATTRS = {
   src: [
     'script',
     'img',
+    'amp-img',
     'audio',
     'video',
     'source',
@@ -20,7 +21,7 @@ const ATTRS = {
     'embed'
   ],
   href: ['link', 'a', 'use'],
-  srcset: ['img', 'source'],
+  srcset: ['img', 'amp-img', 'source'],
   poster: ['video'],
   'xlink:href': ['use', 'image'],
   content: ['meta'],
